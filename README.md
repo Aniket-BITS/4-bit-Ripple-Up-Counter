@@ -1,25 +1,6 @@
 4-bit Ripple Up Counter (Verilog - Vivado Project)
 This project implements a 4-bit ripple up counter using T Flip-Flops in Verilog, developed with Vivado.
 
-Directory Structure
-plaintext
-Copy
-Edit
-.
-├── README.md
-├── fourbit-ripple-up-counter.xpr
-├── fourbit-ripple-up-counter.srcs/
-├── fourbit-ripple-up-counter.sim/
-├── fourbit-ripple-up-counter.cache/
-├── fourbit-ripple-up-counter.hw
-├── fourbit-ripple-up-counter.ip_user_files/
-├── src/
-│   ├── fourbit_ripple_up_counter.v
-│   └── fourbit_ripple_up_counter_tb.v
-└── vivado/
-    └── four_bit_ripple_up_counter.xpr
-README.md: Project documentation.
-
 fourbit-ripple-up-counter.xpr: Vivado project file.
 
 fourbit-ripple-up-counter.srcs/: Vivado source files directory.
