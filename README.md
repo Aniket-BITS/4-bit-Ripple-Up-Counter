@@ -1,19 +1,52 @@
-# 4-bit Ripple Up Counter (Verilog - Vivado Project)
+4-bit Ripple Up Counter (Verilog - Vivado Project)
+This project implements a 4-bit ripple up counter using T Flip-Flops in Verilog, developed with Vivado.
 
-This project implements a 4-bit ripple up counter using T Flip-Flops in Verilog, created in Vivado.
+Directory Structure
+plaintext
+Copy
+Edit
+.
+├── README.md
+├── fourbit-ripple-up-counter.xpr
+├── fourbit-ripple-up-counter.srcs/
+├── fourbit-ripple-up-counter.sim/
+├── fourbit-ripple-up-counter.cache/
+├── fourbit-ripple-up-counter.hw
+├── fourbit-ripple-up-counter.ip_user_files/
+├── src/
+│   ├── fourbit_ripple_up_counter.v
+│   └── fourbit_ripple_up_counter_tb.v
+└── vivado/
+    └── four_bit_ripple_up_counter.xpr
+README.md: Project documentation.
 
-## Directory Structure
+fourbit-ripple-up-counter.xpr: Vivado project file.
 
-- `src/` – Verilog source code
-- `tb/` – Testbench code
-- `vivado/` – Vivado project file (optional)
+fourbit-ripple-up-counter.srcs/: Vivado source files directory.
 
-## How to Simulate (Vivado)
+fourbit-ripple-up-counter.sim/: Simulation files directory.
 
-1. Open `four_bit_ripple_up_counter.xpr` in Vivado.
-2. Use the built-in simulator to run the testbench.
+fourbit-ripple-up-counter.cache/: Vivado cache directory.
 
-## Author
+fourbit-ripple-up-counter.hw: Hardware design file.
 
+fourbit-ripple-up-counter.ip_user_files/: IP user files directory.
+
+src/: Contains Verilog source code.
+
+fourbit_ripple_up_counter.v: Verilog module for the 4-bit ripple up counter.
+
+fourbit_ripple_up_counter_tb.v: Testbench for simulating the counter.
+
+vivado/: Contains Vivado project files.
+
+four_bit_ripple_up_counter.xpr: Vivado project file.
+
+How to Simulate (Vivado)
+Open four_bit_ripple_up_counter.xpr in Vivado.
+
+Use the built-in simulator to run the testbench and verify functionality.
+
+Author
 Aniket Gupta – July 2025
-"# DD" 
+
